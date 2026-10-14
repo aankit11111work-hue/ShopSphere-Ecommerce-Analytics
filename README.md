@@ -1,4 +1,4 @@
-# ShopSphere E-commerce Analytics
+# ShopSphere E-commerce Analytics 
 
 An end-to-end portfolio project using Python, SQL Server,
 Power BI and Excel to analyse sales, profitability,
