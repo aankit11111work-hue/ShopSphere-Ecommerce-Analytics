@@ -113,3 +113,11 @@ rather than adding individual product percentages.
 
 The project deliverables include Python cleaning code,
 SQL scripts, a Power BI report and an Excel analysis workbook.
+
+## Report Previews
+
+### Power BI Overview
+![Power BI Overview](Screenshots/PowerBi/Overview.PNG)
+
+### Excel Category Summary
+![Excel Category Summary](Screenshots/MSExcel/Category_Summary.PNG)
