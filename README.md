@@ -1,6 +1,6 @@
 # ShopSphere E-commerce Analytics 
 
-An end-to-end portfolio project using Python, SQL Server,
+Its an end-to-end portfolio project using Python, SQL Server,
 Power BI and Excel to analyse sales, profitability,
 customer segments and product returns.
 
@@ -20,32 +20,32 @@ The analysed dataset contains:
 - 500 customers
 - 100 products across 6 categories
 - 9,999 orders
-- 500 return records, covering 736 returned units
+- 500 return records, which covers 736 returned units
 
-Core tables: Customers, Products, Orders and Returns.
+Main tables: Customers, Products, Orders and Returns.
 
-## Tools and Workflow
+## Workflow
 
 ### Python
-Inspected and cleaned data using pandas, including duplicates,
-missing values, text formatting and cross-table validation.
+Inspecting and cleaning data using pandas, which including duplicates,
+missing values, text formatting cross-table validation among others.
 
 ### SQL Server
-Joined related tables and created product summaries and
+Joined related tables and creating product summaries and
 order-level financial data for reporting.
 
 ### Power BI
-Built four report pages:
+Has four report pages:
 - Overview
 - Customers
 - Financials
 - Returns
 
-Used DAX measures for expenditure, profit, profit margin
+DAX measures were used for calculating expenditure, profit, profit margin
 and unit return rate, with relationships and visual interactions.
 
 ### Excel
-Created:
+Used for Creating:
 - A category-summary PivotTable
 - A sales PivotChart with a connected category slicer
 - A Top 10 products-by-profit PivotTable
@@ -67,7 +67,7 @@ Created:
 
 ## Key Findings
 
-- Electronics generates the highest sales and total profit.
+- Electronics generated the highest sales and total profit.
 - Clothing has the highest category unit return rate at 4.17%,
   compared with 3.65% overall.
 - Smartphone 034 generates the highest product profit:
@@ -76,12 +76,12 @@ Created:
 ## Recommendations
 
 - Review stock availability for high-performing products.
-- Investigate Clothing's return reasons and product conditions
-  before recommending corrective action.
-- Identify products and return reasons contributing most
+- Look into Clothing's return reasons and product conditions
+  before recommending any corrective action.
+- Identify which products and what return reasons are contributing most
   to return costs.
 
-## Metric Definitions
+## Definitions
 
 - Net units sold = Ordered units − Returned units
 - Net sales = Sum of discounted unit price × net units sold
@@ -98,7 +98,7 @@ rather than adding individual product percentages.
 - 2,650 orders precede recorded product launch dates.
 - 3,226 orders precede recorded customer join dates.
   These groups may overlap.
-- These date inconsistencies remain unresolved and limit
+- These date inconsistencies remained unresolved and limit
   date-based conclusions.
 - Product costs use the available product cost price,
   without historical cost changes.
